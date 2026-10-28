@@ -5,7 +5,7 @@
 homepage: "https://connectwiz.net"
 documentation: "https://github.com/ConnectWiz/gtm-consent-template#readme"
 versions:
-  - sha: 0000000000000000000000000000000000000000
+  - sha: 66dea2ee5b43431261adb8fac257f1f77feb0d08
     changeNotes: |2
       First release: denied Consent Mode v2 defaults everywhere with optional region rows
       (Türkiye, EU/EEA, UK and Switzerland always denied), the stored ConnectWiz choice
