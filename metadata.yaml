@@ -1,0 +1,13 @@
+# Community Template Gallery metadata (developers.google.com/tag-platform/tag-manager/templates/gallery).
+# Versions newest first. `sha` must be the commit IN THE PUBLIC TEMPLATE REPOSITORY that holds
+# that version of template.tpl: after the first push there, put that commit's sha here
+# (the zeros are a placeholder) and push again. See README.md "Publishing".
+homepage: "https://connectwiz.net"
+documentation: "https://github.com/ConnectWiz/gtm-consent-template#readme"
+versions:
+  - sha: 0000000000000000000000000000000000000000
+    changeNotes: |2
+      First release: denied Consent Mode v2 defaults everywhere with optional region rows
+      (Türkiye, EU/EEA, UK and Switzerland always denied), the stored ConnectWiz choice
+      re-applied on Consent Initialization, every later choice passed to Tag Manager,
+      ads_data_redaction, and an optional Microsoft UET default.
